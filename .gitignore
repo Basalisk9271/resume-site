@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Node tooling (not used, but common in web repos)
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Logs
+*.log

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabe Imlay · Computer Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-grid"></div>
+  <div class="background-glow glow-1"></div>
+  <div class="background-glow glow-2"></div>
+
+  <header class="nav">
+    <div class="logo">GI</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="cta" href="mailto:gabe.alex.imlay@gmail.com">Email</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="headline">
+        <div class="pill">Computer Scientist · Platform Engineering · Full‑stack</div>
+        <h1>Hi, I'm Gabe Imlay</h1>
+        <p class="lede">I build platform tooling, CI/CD, and full-stack apps that keep delivery secure, reliable, and fast for the teams shipping them.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Let's Talk</a>
+          <a class="btn ghost" href="Gabriel%20Imlay_Resume.pdf" download>Download Résumé</a>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value">4+</span>
+            <span class="stat-label">years building & supporting</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">orgs supported</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">DoD</span>
+            <span class="stat-label">active clearance</span>
+          </div>
+        </div>
+      </div>
+      <div class="card profile">
+        <div class="badge-row">
+          <span class="badge">Backend</span>
+          <span class="badge">Distributed Systems</span>
+          <span class="badge">Platform Engineering</span>
+        </div>
+        <p class="bio">
+          I focus on DevSecOps pipelines, cloud/container platforms, and support-ready applications. I enjoy untangling delivery workflows, adding observability, and improving day-to-day developer experience.
+        </p>
+        <div class="pill-row">
+          <div class="mini-pill">
+            <span class="dot green"></span>
+            Available for collaborations
+          </div>
+          <div class="mini-pill">
+            <span class="dot blue"></span>
+            Based in your favorite timezone
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Profile</div>
+        <h2>What I do</h2>
+        <p>I automate software delivery, keep services dependable, and build interfaces that help teams work faster. Strong bias for security-first pipelines, readable code, and lightweight processes.</p>
+      </div>
+      <div class="grid two">
+        <div class="card highlight">
+          <h3>Systems thinking</h3>
+          <p>Designing clear interfaces, balancing tradeoffs, and building observability in from day one.</p>
+        </div>
+        <div class="card highlight">
+          <h3>Developer experience</h3>
+          <p>Creating tooling, CI/CD, and docs that keep teams fast, safe, and confident.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Experience</div>
+        <h2>Recent roles</h2>
+        <p>DevSecOps, automation, and full-stack delivery across defense, higher-ed, and consulting environments.</p>
+      </div>
+      <div class="timeline">
+        <div class="card timeline-card">
+          <div class="timeline-meta">
+            <span class="company">Computer Scientist — 402 SWEG DevSecOps, Air Force Civilian Service</span>
+            <span class="duration">Jun 2024 — Present</span>
+          </div>
+          <p class="summary">Delivering secure, automated software for Air Force missions with strong DevSecOps discipline, partnering with product owners and security teams.</p>
+          <ul>
+            <li>Designed and ran CI/CD pipelines in Azure DevOps with SonarQube for code quality and multi-environment releases.</li>
+            <li>Migrated GitLab projects and pipelines into Azure DevOps to streamline delivery.</li>
+            <li>Provisioned Nutanix VMs and configured Nginx for secure, reliable access to services.</li>
+            <li>Built and enhanced team web experiences with React and Next.js to improve usability and onboarding.</li>
+            <li>Collaborated with stakeholders to prioritize features, track work in Jira, and report delivery health.</li>
+          </ul>
+        </div>
+        <div class="card timeline-card">
+          <div class="timeline-meta">
+            <span class="company">System Admin Intern — Information Technology, Mercer University</span>
+            <span class="duration">Aug 2023 — May 2024</span>
+          </div>
+          <p class="summary">Improved campus IT operations through automation, service redesign, and hands-on support for students and staff.</p>
+          <ul>
+            <li>Redesigned the IVR system and refreshed legacy features for clearer, faster user support.</li>
+            <li>Automated software renewals and decommissioning with Power Automate and APIs.</li>
+            <li>Led efficiency initiatives that improved operational throughput and reduced manual work across the org.</li>
+            <li>Partnered with IT leadership to capture requirements, communicate status, and validate changes.</li>
+          </ul>
+        </div>
+        <div class="card timeline-card">
+          <div class="timeline-meta">
+            <span class="company">Student Help Desk Technician → Student Manager — Mercer University</span>
+            <span class="duration">Jan 2021 — May 2024</span>
+          </div>
+          <p class="summary">Provided frontline and escalated support, later managing student technicians and setting support standards.</p>
+          <ul>
+            <li>Resolved desk-side and remote support tickets with clear, user-friendly communication.</li>
+            <li>Coordinated team workflows, triage, and mentoring after promotion to Student Manager in 2023.</li>
+            <li>Documented repeatable fixes and improved handoffs between student techs and full-time staff.</li>
+          </ul>
+        </div>
+        <div class="card timeline-card">
+          <div class="timeline-meta">
+            <span class="company">DevOps Intern — Strategic Solutions Group, LLC</span>
+            <span class="duration">May 2022 — Aug 2022</span>
+          </div>
+          <p class="summary">Built testing and automation capabilities for internal services.</p>
+          <ul>
+            <li>Implemented RESTful API integrations with Java's HTTP Client.</li>
+            <li>Developed JUnit coverage and automated Selenium tests for web apps.</li>
+            <li>Contributed to a proof-of-concept for automated system testing via RESTful APIs and CI triggers.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Skills</div>
+        <h2>Toolbox & focus</h2>
+        <p>Languages, DevSecOps, and platform skills I use to deliver reliable systems.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span>Java</span><span>Python</span><span>JavaScript</span><span>TypeScript</span><span>C</span><span>C++</span><span>Rust</span><span>Go</span><span>Lisp</span><span>Ada</span><span>Julia</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Web & frameworks</h3>
+          <div class="chips">
+            <span>React</span><span>Next.js</span><span>Node.js</span><span>Bootstrap 5</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>DevOps & automation</h3>
+          <div class="chips">
+            <span>Azure DevOps</span><span>Git</span><span>CI/CD Pipelines</span><span>SonarQube</span><span>Power Automate</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Virtualization & networking</h3>
+          <div class="chips">
+            <span>Nutanix</span><span>Nginx</span><span>VMware</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Testing & QA</h3>
+          <div class="chips">
+            <span>JUnit</span><span>Selenium</span><span>Automated testing</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Delivery & collaboration</h3>
+          <div class="chips">
+            <span>Jira</span><span>Agile</span><span>Scrum</span><span>Client-facing delivery</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Certifications</div>
+        <h2>Credentials</h2>
+        <p>Clearance and certifications that back the work.</p>
+      </div>
+      <div class="cert-grid">
+        <div class="card cert-card">
+          <div class="cert-title">Active DoD Security Clearance</div>
+          <a class="cert-chip" href="ImlayG_Sec+.pdf" download>
+            <span class="dot blue"></span>
+            CompTIA Security+ (Aug 2024, exp. 2027)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <div class="eyebrow">Projects</div>
+        <h2>Selected work</h2>
+        <p>Proofs of concept, production systems, and tools I enjoyed building.</p>
+      </div>
+      <div class="grid three">
+        <div class="card project">
+          <div class="pill soft">Distributed systems</div>
+          <h3>Streaming analytics pipeline</h3>
+          <p>Built a fault-tolerant ingestion and aggregation stack for real-time product metrics with automatic back-pressure handling.</p>
+          <div class="tags">
+            <span>Go</span><span>Kubernetes</span><span>Kafka</span><span>Prometheus</span>
+          </div>
+        </div>
+        <div class="card project">
+          <div class="pill soft">AI/ML</div>
+          <h3>ML-assisted support triage</h3>
+          <p>Created a lightweight service to classify tickets and suggest responses, improving median response times by 25%.</p>
+          <div class="tags">
+            <span>Python</span><span>FastAPI</span><span>HuggingFace</span><span>Postgres</span>
+          </div>
+        </div>
+        <div class="card project">
+          <div class="pill soft">Developer tools</div>
+          <h3>DX toolkit</h3>
+          <p>Packaged internal CLIs, lint rules, and templates to standardize how services are scaffolded, tested, and deployed.</p>
+          <div class="tags">
+            <span>TypeScript</span><span>Node.js</span><span>CI/CD</span><span>OpenAPI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="card contact-card">
+        <div>
+          <div class="eyebrow">Contact</div>
+          <h2>Let’s collaborate</h2>
+          <p>Reach out about building something new, improving what you have, or just to talk shop.</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:gabe.alex.imlay@gmail.com">Email me</a>
+            <button class="btn ghost" id="copy-email" data-email="gabe.alex.imlay@gmail.com">Copy email</button>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Publications</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Gabe Imlay · Computer Scientist & Developer</span>
+    <span class="separator">•</span>
+    <span>Building thoughtful systems.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
