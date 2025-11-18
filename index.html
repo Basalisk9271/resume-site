@@ -16,14 +16,16 @@
 
   <header class="nav">
     <div class="logo">GI</div>
-    <nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="cta" href="mailto:gabe.alex.imlay@gmail.com">Email</a>
   </header>
 
   <main>
@@ -31,7 +33,7 @@
       <div class="headline">
         <div class="pill">Computer Scientist · Platform Engineering · Full‑stack</div>
         <h1>Hi, I'm Gabe Imlay</h1>
-        <p class="lede">I build platform tooling, CI/CD, and full-stack apps that keep delivery secure, reliable, and fast for the teams shipping them.</p>
+        <p class="lede">I build platform tooling, CI/CD pipelines, and full-stack apps that keep delivery secure, reliable, and fast for the teams shipping them.</p>
         <div class="actions">
           <a class="btn primary" href="#contact">Let's Talk</a>
           <a class="btn ghost" href="Gabriel%20Imlay_Resume.pdf" download>Download Résumé</a>
@@ -86,7 +88,7 @@
         </div>
         <div class="card highlight">
           <h3>Developer experience</h3>
-          <p>Creating tooling, CI/CD, and docs that keep teams fast, safe, and confident.</p>
+          <p>Creating tooling, CI/CD pipelines, and docs that keep teams fast, safe, and confident.</p>
         </div>
       </div>
     </section>
@@ -166,19 +168,19 @@
           </div>
         </div>
         <div class="card">
-          <h3>Web & frameworks</h3>
+          <h3>Web & Frameworks</h3>
           <div class="chips">
             <span>React</span><span>Next.js</span><span>Node.js</span><span>Bootstrap 5</span>
           </div>
         </div>
         <div class="card">
-          <h3>DevOps & automation</h3>
+          <h3>DevOps & Automation</h3>
           <div class="chips">
             <span>Azure DevOps</span><span>Git</span><span>CI/CD Pipelines</span><span>SonarQube</span><span>Power Automate</span>
           </div>
         </div>
         <div class="card">
-          <h3>Virtualization & networking</h3>
+          <h3>Virtualization & Networking</h3>
           <div class="chips">
             <span>Nutanix</span><span>Nginx</span><span>VMware</span>
           </div>
@@ -190,7 +192,7 @@
           </div>
         </div>
         <div class="card">
-          <h3>Delivery & collaboration</h3>
+          <h3>Delivery & Collaboration</h3>
           <div class="chips">
             <span>Jira</span><span>Agile</span><span>Scrum</span><span>Client-facing delivery</span>
           </div>
@@ -204,14 +206,26 @@
         <h2>Credentials</h2>
         <p>Clearance and certifications that back the work.</p>
       </div>
-      <div class="cert-grid">
-        <div class="card cert-card">
-          <div class="cert-title">Active DoD Security Clearance</div>
-          <a class="cert-chip" href="ImlayG_Sec+.pdf" download>
-            <span class="dot blue"></span>
-            CompTIA Security+ (Aug 2024, exp. 2027)
-          </a>
+      <div class="cert-gallery">
+        <div class="cert-slide" data-link="#">
+          <div class="cert-card">
+            <div class="cert-title">Active DoD Security Clearance</div>
+            <div class="cert-meta">Current</div>
+            <div class="cert-progress"><div class="cert-progress-fill"></div></div>
+          </div>
         </div>
+        <div class="cert-slide" data-link="ImlayG_Sec+.pdf">
+          <div class="cert-card">
+            <div class="cert-title">CompTIA Security+</div>
+            <div class="cert-meta">Issued Aug 2024 · Expires 2027</div>
+            <div class="cert-download">Download PDF</div>
+            <div class="cert-progress"><div class="cert-progress-fill"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="cert-controls">
+        <button class="cert-btn" id="cert-prev" aria-label="Previous certification">‹</button>
+        <button class="cert-btn" id="cert-next" aria-label="Next certification">›</button>
       </div>
     </section>
 
@@ -243,7 +257,7 @@
           <h3>DX toolkit</h3>
           <p>Packaged internal CLIs, lint rules, and templates to standardize how services are scaffolded, tested, and deployed.</p>
           <div class="tags">
-            <span>TypeScript</span><span>Node.js</span><span>CI/CD</span><span>OpenAPI</span>
+            <span>TypeScript</span><span>Node.js</span><span>CI/CD Pipelines</span><span>OpenAPI</span>
           </div>
         </div>
       </div>
@@ -261,9 +275,8 @@
           </div>
         </div>
         <div class="socials">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Publications</a>
+          <a href="https://www.linkedin.com/in/gabe-imlay/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/Basalisk9271" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
     </section>
