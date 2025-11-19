@@ -273,19 +273,39 @@
 
     <section id="contact" class="section contact">
       <div class="card contact-card">
-        <div>
-          <div class="eyebrow">Contact</div>
-          <h2>Let’s collaborate</h2>
-          <p>Reach out about building something new, improving what you have, or just to talk shop.</p>
+        <div class="contact-info">
+          <div>
+            <div class="eyebrow">Contact</div>
+            <h2>Let’s collaborate</h2>
+            <p>Reach out about building something new, improving what you have, or just to talk shop.</p>
+          </div>
           <div class="contact-actions">
-            <a class="btn primary" href="mailto:gabe.alex.imlay@gmail.com">Email me</a>
             <button class="btn ghost" id="copy-email" data-email="gabe.alex.imlay@gmail.com">Copy email</button>
+            <a class="contact-link" href="https://www.linkedin.com/in/gabe-imlay/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="contact-link" href="https://github.com/Basalisk9271" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/gabe-imlay/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/Basalisk9271" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
+        <form class="contact-form" action="https://formsubmit.co/e1b73c5af6da5c79351e6bea9eb6eba6" method="POST">
+          <input type="hidden" name="_subject" value="{{name}} - Contact Request">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-row">
+            <label class="input-group">
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Jane Doe" autocomplete="name" required>
+            </label>
+            <label class="input-group">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            </label>
+          </div>
+          <label class="input-group">
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </label>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn primary full-width">Send message</button>
+        </form>
       </div>
     </section>
   </main>
